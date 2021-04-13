@@ -324,6 +324,7 @@ grid__item,
 
 .grid__item1:hover .img-top {
   display: inline-block;
+  cursor: pointer;
 }
 
 .grid__item2 .img-top {
@@ -343,6 +344,8 @@ grid__item,
  
  .grid__item2:hover .img-top {
    display: inline-block;
+   cursor: pointer;
+
  }
 
  .grid__item3 .img-top {
@@ -362,6 +365,8 @@ grid__item,
  
  .grid__item3:hover .img-top {
    display: inline-block;
+   cursor: pointer;
+
  }
 
  .grid__item4 .img-top {
@@ -381,6 +386,8 @@ grid__item,
  
  .grid__item4:hover .img-top {
    display: inline-block;
+   cursor: pointer;
+
  }
 
  .grid__item5 .img-top {
@@ -400,6 +407,8 @@ grid__item,
  
  .grid__item5:hover .img-top {
    display: inline-block;
+   cursor: pointer;
+
  }
 
  .grid__item6 .img-top {
@@ -419,6 +428,8 @@ grid__item,
  
  .grid__item6:hover .img-top {
    display: inline-block;
+   cursor: pointer;
+
  }
 
 
