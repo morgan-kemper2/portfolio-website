@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/icon" href="img/logo2.jpg"/>
+  <title>Morgan Kemper - Portfolio</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <img src="img/logo2.jpg" alt="logo" class="logo">
+
+  <div class="topnav">
+    <a class="active" href="#index">Home</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <div id="index" class="profile">
+    <div>
+      <img src="img/me.jpg" class="profile__portrait" alt="Morgan's Logo">
+    </div>
+    <div>
+      <h1 class="hello">Hi!</h1><br>
+      <div class="profile-info">
+        <p>
+          My name is Morgan Kemper.<br>
+          I am a Web Developer from Fort Worth, Tx.
+        </p>
+        <div class="button3">
+          <a href="#work" class="link">Checkout Some of My Work</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- work begin -->
+    <!-- main content -->
+    <section id="work">
+      <div>
+      <h1 class="workheader">Some of my Work</h1>
+      <p class="workheader2">I am new to the field of web development... but here are a few of my achievements.</p>
+      <div class="grid">
+        <!-- Grid items will live here -->
+
+
+        <div class="grid__item1">
+          <h2 style="margin-bottom: 2px;">Mobile Application</h2>
+          <p>
+            This is a Chat application that allows a user to send and receive messages. The user can also view their messages offline,
+            send their location via map, and send and receive pictures.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+           React Native<br>
+           Expo<br>
+           Gifted Chat<br>
+           Google Firestore Database<br> Google Firestore Authentication<br>
+          Google Firebase Cloud Storage<br>
+          </p>
+          <div class="img-top" style="background-color: cornflowerblue;">
+            <img src="img/screenshotchat.png" style="width: 100%; height: auto;">
+            <a style="color:black;" class="button-img" href="https://github.com/morgan-kemper2/chatapp" target="_blank">Github</a>
+          </div>
+          </div>
+
+
+        <div class="grid__item2">
+          <h2 style="margin-bottom: 2px;">React Application</h2>
+          <p>
+            This myFlix application allows a user to view a list of movies. The user can navigate through viewing the synopsis, director, and genre
+            information about a particular movie. The user can also create a profile and save movies to favorites.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+           React<br>
+           React Bootstrap<br>
+           Parcel Build Tool<br>
+            React Redux<br>
+          </p>
+          <div class="img-top" style="background-color: cornflowerblue;">
+            <img src="img/reactscreenshot.png" style="width: 100%;height: auto;">
+          <a style="color:black" class="button-img" href="https://mymovieflix.netlify.app/" target="_blank">See project</a><br>
+          <a style="color:black" class="button-img" href="https://github.com/morgan-kemper2/myFlix-client" target="_blank">Github</a>
+          </div>
+        </div>
+
+
+        <div class="grid__item3">
+          <h2 style="margin-bottom: 2px;">Meet Application</h2>
+          <p>
+            This application pulls from the Google Calendar API to create a list of events that a user can view in their city.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+           React<br>
+           Google Calendar API<br>
+           OAuth2 Authentication flow<br>
+            AWS lambda<br>
+            React axios and async/await<br>
+            Recharts<br>
+          </p>
+          <div class="img-top" style="background-color: cornflowerblue;">
+            <img src="IMG/meetscreenshot.png" style="width: 100%;height: auto;">
+          <a style="color:black;" class="button-img" href="https://morgan-kemper2.github.io/meet/" target="_blank">See project</a><br>
+          <a style="color:black;" class="button-img" href="https://github.com/morgan-kemper2/meet" target="_blank">Github</a>
+          </div>
+        </div>
+
+
+        <div class="grid__item4">
+          <h2 style="margin-bottom: 2px;">Pokemon Application</h2>
+          <p>
+            This application pulls a list of Pokemon from the Pokemon API and displays them. The user can filter Pokemon by
+            name and clicking on a Pokemon will display their information, like height and weight.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+           JavaScript<br>
+           CSS<br>
+           External Pokemon API<br>
+          </p>
+          <div class='img-top' style="background-color: cornflowerblue;">
+            <img src="IMG/pokemonscreenshot.png" style="width: 100%;height: auto;">
+          <a style="color:black;" class='button-img' href="https://morgan-kemper2.github.io/pokedex-jquery/" target="_blank">See project</a><br>
+          <a style="color:black;" class="button-img" href="https://github.com/morgan-kemper2/pokedex-jquery" target="_blank">Github</a>
+          </div>
+        </div>
+
+
+        <div class="grid__item5">
+          <h2 style="margin-bottom: 2px;">Movie API</h2>
+          <p>
+            This is the backend for the React movie application. This sets up all the data the React application uses
+            to display information. This api includes collections for movies and users.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+            Node.js<br>
+            MongoDB<br>
+            Mongoose<br>
+            Postman<br>
+          </p>
+          <div class="img-top" style="background-color: cornflowerblue;">
+            <img src="IMG/movieapiscreenshot.png" style="width: 100%;height: auto;">
+          <a style="color:black;" class="button-img" href="https://github.com/morgan-kemper2/movie-api" target="_blank">Github</a>
+        </div>
+        </div>
+
+
+        <div class="grid__item6">
+          <h2 style="margin-bottom: 2px;">Angular Application</h2>
+          <p>
+            This is the same movie application except it was built with Angular instead of React. It displays the 
+            same movies and still allows a user to view movies, directors, genres, and save movies to favorites.
+          </p>
+          <p>
+            <h2 style="margin-bottom: 2px;">Technologies Used</h2>
+           Angular<br>
+           Node.js<br>
+           Angular Material<br>
+            Typedoc
+            JSDoc<br>
+          </p>
+          <div class="img-top" style="background-color: cornflowerblue;">
+            <img src="IMG/screenshotangular.png" style="width: 100%;height: auto;">
+          <a style="color:black;" class="button-img" href="https://morgan-kemper2.github.io/myflix-angular-client2/welcome" target="_blank">See project</a><br>
+          <a style="color:black;" class="button-img" href="https://github.com/morgan-kemper2/myFlix-angular-client" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+    </section>
+</html>
+
+<!-- work end -->
+
+<!-- about me begin -->
+<section id="about">
+    <h1 class="aboutheader">About Me</h1>
+      <p style="text-align:center; margin-left: 60px; margin-right: 70px; font-size: 20px;">While I am new to web development, I bring a willingness to learn and grow. This recent decision to change my life has opened up a world of new opportunities, and I am excited to see where they will lead. While I may be inexperienced, I still have a lot to offer. My background in management has taught me the value of good communication and teamwork. I have learned to adapt to a very fast paced environment where things don’t always go as planned. I am determined to find solutions where others have given up. I don’t see problems as road blocks, I see them as opportunities to grow.  </p>
+      <p style="text-align:center; margin-left: 60px; margin-right: 70px; font-size: 20px;">I quickly learned that my tenacity would aid me well in web development. These new things can be challenging and frustrating, but I forged ahead even when I didn’t know what I was doing. I asked questions of my fellow developers, I googled, and I experimented. I found the answers and finished each project eager to start the next. </p>
+      <p style="text-align:center; margin-left: 60px; margin-right: 70px; font-size: 20px;">I am looking forward to the changes headed my way and to each new project I can tackle with new skills to learn.</p>
+   
+    <a href="https://www.linkedin.com/in/morgan-kemper-317a8274/" class="button-linkedin" target="_blank">View my LinkedIn Profile</a>
+  </section>
+
+    <!-- about me end -->
+
+    <!-- contact me begin -->
+    <section id="contact">
+          <div class="contactinfo">
+            <p class="contactme2">Morgan Kemper <br>
+            Fort Worth, Tx <br>
+            <div class="contact-icons">
+              <div class="email-icon">
+            <a style="text-decoration: none" href="mailto:mdkemp22@gmail.com"><img src="http://assets.stickpng.com/images/584856bce0bb315b0f7675ad.png" style="width: 150px;height:auto;"></a><br>
+            <a style="text-decoration: none;position: relative;top:0" href="mailto:mdkemp22@gmail.com">mdkemp22@gmail.com</a>
+              </div>
+              <div class="tel-icon">
+            <a href="tel:8176297485"><img src="http://assets.stickpng.com/thumbs/5a452601546ddca7e1fcbc87.png"style="width:150px;height:auto;"></a><br>
+            <a style="margin:20px; text-decoration: none;position:relative;top:0" href="tel:8176297485">(817)629-7485</a>
+              </div>
+          </div>
+          </div>
+        </section>  
+        
+  <footer class="social-media">
+    <div style="font-size: 30px;">
+      <p>Find Me on Social Media</p>
+      <a href="https://www.facebook.com/morgan.kemper.75" target="_blank"><img src="img/Facebook_icon.svg" alt="Facebook" style="width: 50px; height: 50px;"></a>
+      <a href="https://twitter.com/MorganDKemper" target="_blank"><img src="img/Twitter_icon.svg" alt="Twitter" style="width: 50px;height: 50px;"></a>
+      <a href="https://www.linkedin.com/in/morgan-kemper-317a8274/" target="_blank"><img src="img/Linkedin_icon.svg" alt="LinkedIn" style="width: 50px;height: 50px;"></a>
+      <a href="https://medium.com/@mdkemp22" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///+3t7f8/Pzs7Oz39/d6enpPT0/IyMjy8vL19fWtra04ODhxcXHU1NSqqqpeXl6Xl5fc3NwJCQl/f38WFhbm5uaPj4/AwMArKyuFhYVNTU1kZGQREREyMjJFRUUiIiKgoKBoaGgnJyc9PT2MjIwcHBxWVlbgTdlVAAAEsUlEQVR4nO3c6XqqMBAGYHDD3dbj1rpUu9j7v8NTCAhhnYQZofZ7f/LEmGHJRoLjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQJtdp95hNpsd9qdj00Xh9zHoLEdubDSfDP41XSg+h04yuFhv4TVdNA6nST83vDDIy9Usu9VuMx7NF98yhbVwmJeEp+zeyLkdO/GpWQmWmm6/rIzPNzzRsltpv1qeRctOsR6S4vNNKPl10r96ko6gwis5vh/jQ2V+Off7IC/ddL67T2NU/QDqOhX55d4QOVfx2nXdjUhEOq+sAs3XeynLcJL/o2kmYXAmLmKBRQbG8flKmoD3otOSTngKDnclg/NdrAIseK5868KfpG/u8Fq/yga4sAzQdYsauZJaOdUtGqujc9EAL9YBFl3Fp5Jf6LWKFx1eCwb4XCNA133Py3JT9gvthrzdPoU3fH2zWgG6bk4frjzLfjLprRNV1fjY+6wZoF5gpfQS6g/v7WCmkmWTP04ykakkyp5CX+JJ9OKjUqPPTN/RwnMqz8rubdyObuODQp3WqtNNo3duitvCyC7vBKfPExPzvlqepZbntvoHt7SJ0ZpMVXNhCTBV1VfUM1r6xBleZotX35UpQK0+fSGkH0aJE8dGEhFyVDNK4iH6IiSPOtpe8qBAgGyXULuIpImCsOLUhjSf/BEWDOGsxF2xLiX5QqXVOowz/ghJZSG6dUneSMnDakV7TL7YA1wV/b2VaFBEaCt8KrF2R/OP800nZspFzdmOllydEG3ycldcVDvVXQ8jUV3ToyVXz63WKR4Wl9WO0eQhQXibEh9uNeGqdanYm3z69C+Nqh6pg7F59nSwj5/GzBGqS1A0x5YWhHPWDnHPt52YAwyrR/KUiJ94Khohb1vhCx5E8rTd2cm0ncwRcnZolKB6JD/deyfVLWWfbuOuaMLqkfZ6zlUDqNT4u/QtgTnCKM7Q0Chb/4of9EPMXW/OTqkSTDCRJ7a2TmbWkf5uuaEIe0bZ+r3Q1PugPWuA5/z/rSMYpJNTL6QjpMw1GOrXjZB3KYtAhN2Hj7Bl1/Dxn0N6UchaVpf+gfawDX2a1FAru06jlqb7pf7coWy/1H51QhGzsYVfccqOLfjHh99GJ+7sSI8P+RvEINsWjfEff56m4bk2dT5k59q450vDl/Mtmi9tds5bvYaRnfNu9r2F6qHJvrf4A++e2vb+UGAB5uO/A2YcI3K8x2fueAf41mJs40zbtBaD7yK2dj2Nc2GKsLVromTWtRE637e04uva0m8OLOnboI6V6XPXJm7TZWPSyPrSeCmp/PpScj+yBNMaYakAU6NQC61f500esxYxXquvNQt3WKt///0W2j6bS3RUcL9FS/bMyG5BtA+Rbd+TUHt/Y3uj/pq9a7Zbgzj2H4Z1uWRwyv7R95A6ze0DPt5pH7BjOL3Yt9rLnTuMn86H9/rixpE4T+b+1v34PzzRbyp8yBae6Jv1uxjXxHcxRDstRk6Tsnc2I9Nvm7zuNv3RvG2ffXkq+j7NpGUFreO8euhvDEXWU+89+E7U9AG/EwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ/wFTZUNtMEP4sAAAAABJRU5ErkJggg=="
+        style="width:50px;height:50px;"></a>
+        <p class="copy-right" style="text-align:center; font-size: 16px;">&copy; Copyright <a rel="nofollow" href="./index.html">Morgan Kemper</a> All rights reserved.</p>
+
+    </div>
+  </footer>
+  
+  <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>

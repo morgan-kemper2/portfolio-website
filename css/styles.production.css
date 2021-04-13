@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  /* sets the font size to 16px */
+  line-height: 1.6;
+  /* sets the line-height to 1.6 */
+  height: 100%;
+  width: 100%;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm27-tong-62-nature.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=383d958674f3ba66d32edbcc2565215a");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topnav {
+  background-color:black;
+  overflow: hidden;
+  position: fixed;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.logo {
+  float:right;
+  margin:20px;
+  height:100px;
+  width: 100px;
+}
+
+:root {
+  --primary-color: #0000ff;
+  --secondary-color: #e0b354;
+  --dark-grey: #2b2b2b;
+  --blue: #112055;
+}
+
+.workheader {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 200px;
+
+}
+.workheader2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  a {
+    color: var(--primary-color);
+  }
+  a:hover, a:focus {
+    /*No underlining when hovering over a link */
+    text-decoration: none;
+  }
+  a:active {
+    /*selected link */
+    color: #489c79;
+  }
+
+.hello{
+  position: relative;
+  left: 600px;
+  bottom: 400px;
+  font-size: 50px;
+  position:relative;
+  white-space: nowrap;
+}
+
+.contactinfo {
+  text-align: center;
+}
+
+.contactme {
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: underline;
+  bottom: 0;
+}
+.contactme2 {
+  font-size: 60px;
+  font-weight:900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+.tel-icon{
+  margin-left: 200px;
+}
+
+.info {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.contactform {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: auto;
+}
+
+  button,
+    .button1,
+    .button3,
+    .button4,
+    .button-linkedin,
+    .my-input {
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      font-size: 20px;
+      background-color:cornflowerblue;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      border-bottom: 2px solid rgba (0, 0, 0, 0.3);
+      -webkit-transition: 2s opacity;
+      transition: 2s opacity;
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+
+  .button-linkedin {
+   position: relative;
+   margin-left: 42%;
+  }
+
+  .button4 {
+    position: relative;
+    left: 550px;
+    top: -400px;
+  }
+
+
+  .button-img {
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: 20px;
+    background-color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba (0, 0, 0, 0.3);
+    -webkit-transition: 2s opacity;
+    transition: 2s opacity;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .button3 {
+    position:absolute;
+
+  }
+
+    button:hover,
+    button:focus,
+      .button1:hover,
+      .button1:focus,
+      .button3:hover,
+      .button3:focus,
+      .button4:hover,
+      .button4:focus {
+      cursor: pointer;
+      opacity: 0.6;
+  }
+
+
+.button_CV {
+  text-align: center;
+}
+.button_secondary {
+  background-color: var(--secondary-color);
+  color: var(--dark-grey);
+}
+
+
+.picture_1 {
+  text-align: center;
+}
+@keyframes color-change {
+  from {
+    fill: #EDC655;
+  }
+    to {
+      fill: #f76414;
+    }
+  }
+
+.profile__portrait {
+  margin-top:200px;
+  margin-left: 200px;
+  margin-right: 100px;
+  border-radius: 50%;
+  height: 400px;
+  width: auto;
+}
+.profile {
+  height: 100%;
+  width: 100%;
+}
+
+.profile-info{
+  position: relative;
+  left: 600px;
+  top: -400px;
+  font-size: 25px;
+
+}
+
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.page-header__item {
+  flex: 0 1 200px;
+}
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  grid-auto-rows: 1fr;
+}
+
+grid__item,
+  .grid__item1,
+  .grid__item2,
+  .grid__item3,
+  .grid__item4,
+  .grid__item5,
+  .grid__item6
+ {
+  padding: 5px;
+  box-sizing: content-box;
+  transition: opacity 1s ease-in-out;
+  position: relative;
+  background: white;
+}
+
+
+.grid__item1 .img-top {
+ height:100%;
+ width: 100%;
+ text-align: center;
+ font-size: 40px;
+ display: none;
+ position: absolute;
+ top:0;
+ left:0;
+ z-index: 99;
+ margin: auto;
+ justify-items: center;
+ align-items: center;
+}
+
+.grid__item1:hover .img-top {
+  display: inline-block;
+}
+
+.grid__item2 .img-top {
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .grid__item2:hover .img-top {
+   display: inline-block;
+ }
+
+ .grid__item3 .img-top {
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .grid__item3:hover .img-top {
+   display: inline-block;
+ }
+
+ .grid__item4 .img-top {
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .grid__item4:hover .img-top {
+   display: inline-block;
+ }
+
+ .grid__item5 .img-top {
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .grid__item5:hover .img-top {
+   display: inline-block;
+ }
+
+ .grid__item6 .img-top {
+  height:100%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 99;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+ }
+ 
+ .grid__item6:hover .img-top {
+   display: inline-block;
+ }
+
+
+.list {
+  list-style-type: none;
+  text-align: center;
+  color: blue;
+  font-family: impact;
+  font-size: 25px;
+}
+
+.aboutheader {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 200px;
+}
+.aboutheader2 {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+
+.social-media {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  display: inline;
+  justify-self: center;
+  align-self: center;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm27-tong-62-nature.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=383d958674f3ba66d32edbcc2565215a");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 500px;
+ 
+}
+
+#about {
+  margin-bottom: 300px;
+}
+
+/* .page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background-color: cornflowerblue;
+  position:sticky;
+  top:0;
+} */
+
+/* Add a black background color to the top navigation */
+
+
+/* Style the links inside the navigation bar */
+
+
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
